@@ -27,6 +27,13 @@ Includes:
      ```bash
      bash scripts/install-git-hooks.sh
      ```
+Note windows powershell users might need to run 
+
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+In the terminal before running the .ps1 scripts
 
 ## What the hooks do
 

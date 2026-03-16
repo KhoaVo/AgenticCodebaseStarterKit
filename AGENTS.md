@@ -302,3 +302,9 @@ Agents working in this repository must:
 - compress knowledge into structured summaries
 - avoid unnecessary rescanning
 - maintain cumulative project understanding
+
+# Version Control
+
+Git workflow
+- Never git commit automatically unless explicitly asked.
+- After completing a meaningful chunk of work, tell me to run `scripts/checkpoint.ps1` or `scripts/checkpoint.sh`.
