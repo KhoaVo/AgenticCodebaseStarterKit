@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+tmp/
+temp/
+logs/
+vendor/
+venv/
+.venv/
+__pycache__/
+*.pyc
+target/
+bin/
+obj/

@@ -1,0 +1,22 @@
+# Common ignores
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+tmp/
+temp/
+logs/
+*.log
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
