@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || true)"
+if [ -z "$REPO_ROOT" ]; then
+  exit 0
+fi
+if [ -f "$REPO_ROOT/scripts/generate_repo_index.py" ]; then
+  if command -v python >/dev/null 2>&1; then
+    python "$REPO_ROOT/scripts/generate_repo_index.py" >/dev/null 2>&1 || true
+  elif command -v python3 >/dev/null 2>&1; then
+    python3 "$REPO_ROOT/scripts/generate_repo_index.py" >/dev/null 2>&1 || true
+  fi
+fi
+exit 0

@@ -3,5 +3,3 @@
 ## Important Paths
 
 - `/src/...` —
-- `/app/...` —
-- `/lib/...` —

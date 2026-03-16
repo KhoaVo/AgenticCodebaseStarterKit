@@ -1,13 +1,5 @@
 # repoMap.md
 
-## Repository Map
-
-### Core System
+## Curated Repository Map
 
 - `/src/...` —
-- `/app/...` —
-- `/lib/...` —
-
-## Entry Points
-
-- `...`

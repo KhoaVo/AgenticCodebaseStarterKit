@@ -3,11 +3,3 @@
 ## Conventions
 
 -
-
-## Reusable Patterns
-
--
-
-## Framework Notes
-
--

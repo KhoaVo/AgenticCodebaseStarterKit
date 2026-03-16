@@ -5,4 +5,3 @@
 ### Subsystem Name
 
 - fileA -> uses fileB
-- routeX -> calls serviceY
